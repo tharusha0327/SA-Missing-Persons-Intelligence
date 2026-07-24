@@ -45,6 +45,12 @@ Current Phase:
 
 ---
 
+## Data Validation Pipeline
+
+During development, the public SAPS website occasionally returned incorrect person details for the requested case identifier. To ensure dataset integrity, every scraped record is validated against the original list page. Records that fail validation are automatically retried and quarantined for manual review if they cannot be verified.
+
+---
+
 ## Author
 
 Pasha Morgan
